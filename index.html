@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+
+   <div id="topnav">
+     <div class="logo-image">
+           <img src="logo.png" width="200px" height="46px" class="img-fluid">
+     </div>
+     <a class="active" href="midterm.html">Home</a>
+     <a href="about/about.html">About</a>
+   </div>
+
+   <h2> PORTFOLIO </h2>
+
+
+<!--containers -->
+
+<div class="card_container">
+
+ <div class="bg1">
+       <p><button class="popup1_open" id="fetchUserDataBtn">Food Blog</button></p>
+     </div>
+     <div class="bg2">
+       <p><button class="popup2_open" id="fetchUserDataBtn2">TV Blog</button></p>
+     </div>
+     <div class="bg3">
+       <p><button class="popup3_open" id="fetchUserDataBtn3">Video Blog</button></p>
+     </div>
+     <div class="bg4">
+       <p><button class="popup4_open" id="fetchUserDataBtn4">Film</button></p>
+     </div>
+     <div class="bg5">
+       <p><button class="popup5_open" id="fetchUserDataBtn5">Documentary Production</button></p>
+     </div>
+     <div class="bg6">
+       <p><button class="popup6_open" id="fetchUserDataBtn6">Experimental Production</button></p>
+     </div>
+     <div class="bg7">
+       <p><button class="popup7_open" id="fetchUserDataBtn7">2D Animation</button></p>
+     </div>
+     <div class="bg8">
+       <p><button class="popup8_open" id="fetchUserDataBtn8">Propaganda Cite</button></p>
+     </div>
+     <div class="bg9">
+       <p><button class="popup9_open" id="fetchUserDataBtn9">Media Production</button></p>
+     </div>
+
+</div>
+
+<!-- modal section -->
+<section id="popup1">
+  <h2>Food Blog</h2>
+  <p id="blogtext"><a href="https://fmundergrad.hunter.cuny.edu/~castelany/medp285/medp285_final/foodxdelight.html"><small>Click here to view blog!</small></a></p>
+  <p id="blogtext"><img src="imgs/food_blog.png" alt="Food Blog" width="80%"></p>
+  <p id="blogtext">For my first website project, I felt inspired to make a blog cite for all the delicious food I've tasted. There's a homepage with js timed images moving,
+  and different pages added.</p>
+  </div>
+
+</section>
+
+<section id="popup2">
+  <h2>TV Blog</h2>
+  <p id="blogtext"><a href="https://yoselinram97.github.io/web-production-2/midterm/midterm.html"><small>Click here to view blog!</small></a></p>
+  <p id="blogtext"><img src="imgs/tvblog.png" alt="TV Blog" width="80%"></p>
+  <p id="blogtext">Using an API for TV search genres, I made this website as a recommendation of shows to watch based on genres and searching for your own show. I also added a night mode on the pages,
+  and each additional page has further information on streaming services and my own personal shows to watch. Most of the code is using JavaScript and the TV Maze API to gather information.</p>
+</section>
+
+<section id="popup3">
+  <h2>Traveling Blog</h2>
+  <p id="blogtext"><a href="https://yoselin-travel-vlog.herokuapp.com/"><small>Click here to view blog!</small></a></p>
+  <p id="blogtext"><img src="imgs/vlog.png" alt="Traveling Blog" width="80%"></p>
+  <p id="blogtext">Node.js with handlebars were used to create this simple blog website of places I recommend to visit in NYC. The videos were added
+  with simple JS, and there are also comments and like/love functions to make it interactive.</p>
+</section>
+
+<section id="popup4">
+  <h2>Film Production</h2>
+  <div class="clearfix">
+    <iframe width="426" height="240" src="https://player.vimeo.com/video/464627366?h=05e859632c">
+  </iframe>
+  <h3>Define A Place - Bryant Park</h3>
+    <p id="videotext">Defining a place based on its structure and what it holds not focusing so much in the people, but the place itself. I contrasted my video from day to night to show
+    the difference in ambiance of the park.</p>
+    </div>
+
+    <div class="clearfix">
+      <iframe width="426" height="240" src="https://player.vimeo.com/video/488310944?h=2548b1969c">
+    </iframe>
+    <h3>Homemade Donuts by Mom</h3>
+      <p id="videotext">Filming the activity of a person. For this project I filmed my mom as she focused in making donuts. I used different shot techniques and focused more on her hand movements.</p>
+      </div>
+</section>
+
+<section id="popup5">
+  <h2>Documentary Video Production</h2>
+  <div class="clearfix">
+    <iframe width="426" height="240" src="https://player.vimeo.com/video/596261383?h=19729d95e4">
+  </iframe>
+  <h3>Zoo Visit During the Pandemic</h3>
+    <p id="videotext">This project was part of my Documentary Film class where we filmed a community based project concerning different
+                topics. I chose to showcase how people dealt with a normal activity, like visiting the zoo, during a pandemic.</p>
+    </div>
+
+    <div class="clearfix">
+      <img id="videopic" src="imgs/img1.png" alt="Interviewing Stay at Home Mom" float="left">
+    <h3>Portrait of A Mom</h3>
+    <p id="videotext"><a href="https://drive.google.com/file/d/1ySxZeQ2eC1rfkdP1U_-Yz1r2TwcOPrLp/view?usp=sharing"><small>Click here to view video!</small></a></p>
+      <p id="videotext">Portrait of A Person assignment. Interviewing a person and their life's story or something personal about them. I interviewed
+      my older sister, who's also a parent and co-owner of a company. </p>
+      </div>
+
+      <div class="clearfix">
+        <img id="videopic" src="imgs/img2.png" alt="Building a Lego Set" float="left">
+      <h3>How to Build a Lego Set</h3>
+      <p id="videotext"><a href="https://drive.google.com/file/d/1DyNz5Qe6pALw-LI38tUGVRFDdyd41dTV/view?usp=sharing"><small>Click here to view video!</small></a></p>
+        <p id="videotext">For my "How to do..." project, I filmed my brother building a lego set. I kept what he was builiding into a mystery
+        until the end of the video. Using different angle shots including close ups and mid shots.  </p>
+        </div>
+
+</section>
+
+<section id="popup6">
+  <h2>Experimental Production</h2>
+  <div class="clearfix">
+    <iframe width="426" height="240" src="https://player.vimeo.com/video/617382937?h=524de256a2">
+  </iframe>
+  <h3>Single Shot Video - An Afternoon Snack</h3>
+    <p id="videotext">Sometimes expectations are not what reality gives you. In this single-shot video I wanted it to represent exactly how one would feel when they’re wanting (or in this case craving) something,
+      and it turns out not how one would expect it. While my approach may seem simplistic as opposed to realistic unachievable expectations, I still believe it links the need to get something that you think is there but not. </p>
+    </div>
+
+<div class="clearfix">
+      <iframe width="426" height="240" src="https://player.vimeo.com/video/639556869?h=9908925826">
+    </iframe>
+    <h3>Found Footage - Being A Woman</h3>
+      <p id="videotext">When I think about presenting found footage that will somehow be meaningful to me, I wanted to showcase what the reality of being a woman is. While there’s a lot of women empowerment in today’s media, the reality is that a lot of women are still suffering around the world with failed humanitarian involvements. The media is quick to want to show that women have begun to fight back and get more rights, which is true somewhat but the dark contrast of that is that women still have little to no voice on many countries around the world. </p>
+      </div>
+
+      <div class="clearfix">
+        <iframe width="426" height="240" src="https://player.vimeo.com/video/657247572?h=85a30d8d64">
+      </iframe>
+      <h3>Final - Love of Bread</h3>
+        <p id="videotext">As this is my last personal film project, I thought a lot of what I wanted to do, and with this experimental video I wanted to choose a topic that I would be able to have fun with. I chose to express the joy of eating bread and to simply have found footage of any commercialized bread video and people showcasing different breads all over the world. </p>
+        </div>
+</section>
+
+<section id="popup7">
+  <h2>2D Animation Production</h2>
+  <p id="videotext"><small> All animation was made using Adobe After Effects.</small></p>
+  <div class="clearfix">
+    <iframe width="426" height="240" src="https://player.vimeo.com/video/659831674?h=71217356ac">
+  </iframe>
+  <h3>We Real Cool Assignment</h3>
+    <p id="videotext">First animation assignment, using simple movements and images to make the words stand out.</p>
+    </div>
+
+<div class="clearfix">
+      <iframe width="426" height="240" src="https://player.vimeo.com/video/659831956?h=62c246c441">
+    </iframe>
+    <h3>Little We See Assignment</h3>
+      <p id="videotext">For my midterm assignment, we were tasked with presenting a small part of this poem 'Little We See' and using text animation to show our growth.</p>
+      </div>
+
+      <div class="clearfix">
+        <iframe width="426" height="240" src="https://player.vimeo.com/video/658805480?h=1c356b4281">
+      </iframe>
+      <h3>Video Poem Animation - Other Side of the Tunnel</h3>
+        <p id="videotext">For this video animation, I used a poem from Spirited Away and through different animations made it into a story happening.</p>
+        </div>
+        <div class="clearfix">
+              <iframe width="426" height="240" src="https://player.vimeo.com/video/659831330?h=5fea03fbcd">
+            </iframe>
+            <h3>Story Animation - Cinnamon and the Muffin</h3>
+              <p id="videotext">For my final project, I animated my own character, a cat named Cinnamon who only wants to sleep and eat. I used simple animaiton movements and all of the cartoon images were made in Adobe Illustrator by me. </p>
+              </div>
+  </section>
+
+<section id="popup8">
+  <h2>Propaganda Page</h2>
+  <p id="blogtext"><a href="https://fmundergrad.hunter.cuny.edu/~castelany/medp285/yoselin_hw9/hw9.html"><small>Click here to view blog!</small></a></p>
+  <p id="blogtext"><img src="imgs/propaganda.png" alt="Propaganda Cite" width="80%"></p>
+  <p id="blogtext">I created a simple webpage solely for basic information on the use of propaganda and the different types there are. I also added how today's
+  use of propaganda might appear different but is equally harmful.</p>
+</section>
+
+<section id="popup9">
+  <h2>Web Production II</h2>
+  <p id="blogtext"><a href="https://yoselinram97.github.io/web-production-2/"><small>Click here to view blog!</small></a></p>
+  <p id="blogtext"><img src="imgs/medp.png" alt="Web Production" width="80%"></p>
+  <p id="blogtext">My homepage for all the work I created over the semester for Web Production II. I learned how to use more intermediate levels of HTML, CSS, JS, jQuery, P5.js and Node.js</p>
+  <h2>Creative Code Using P5.js</h2>
+  <p><div class="photos" style="max-width:500px" align="center">
+  <img class="intro" src="imgs/p5_1.png" style="width:50%">
+  <img class="intro" src="imgs/p5_2.png" style="width:50%">
+  <img class="intro" src="imgs/p5_3.png" style="width:50%">
+  <img class="intro" src="imgs/p5_4.png" style="width:50%">
+</div></p>
+
+<p id="blogtext">
+  <br><a href="https://editor.p5js.org/yoselinram97/sketches/Y4wh6B5qx"><b>The Flower</b></a> - an interactive piece of art using Jose Marti's Poem and creating dissolving squares.
+  <br><a href="https://editor.p5js.org/yoselinram97/sketches/Y_QjJ-yQq"><b>The Chronicle</b></a> - using sound with p5.js and showing nouns only when a certain level of hiHat is met.
+  <br><a href="https://editor.p5js.org/yoselinram97/sketches/YVs7ssDP6"><b>Generative Art</b></a> - different repetetive shapes and random colors to make dragon scales.
+  <br><a href="https://editor.p5js.org/yoselinram97/sketches/5nFjkIx5t"><b>Text Art</b></a> - bringing awareness about Mexico's femicide and honoring the vicitms.
+</p>
+</section>
+
+   <script src="script.js"></script>
+
+
+
+   <div id="footer">
+   <p id="footertext">Yoselin Castelan Ramirez | Feel free to reach me at:
+     <br><a href="https://vimeo.com/user124412065" class="fa fa-vimeo"></a>  <a href="https://www.instagram.com/ramyoselin/" class="fa fa-instagram"></a>  <a href="mailto:yoselinramirez13@hotmail.com" class="fa fa-google"></a>
+   </p>
+   </div>
+ </body>
+</html>

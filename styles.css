@@ -1,0 +1,269 @@
+
+body {
+  font-family: 'Cambria';
+  text-align: center;
+  font-size: 16px;
+  background: #F8F8FF;
+}
+
+/*for navigation bar*/
+#topnav {
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+#topnav a {
+  float: left;
+  color: #449b9d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#topnav a:hover {
+  color: #8cbfab;
+}
+
+#topnav a.active {
+  color: #5bbddb;
+}
+
+/*for logo image*/
+.logo-image{
+  width: 200px;
+  height: 46px;
+   overflow: hidden;
+   margin-top: -2px;
+   float: left;
+}
+
+/*end navigation  bar*/
+
+h2 {
+  text-align: center;
+  color: #61b1a3;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #8cbfab;
+  text-align: center;
+}
+
+h4 {
+  font-size: 14px;
+  margin: 60px;
+}
+
+section {
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+
+p {
+  text-align: center;
+  padding-left:10px;
+  padding-top: 5px;
+}
+
+#blogtext{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#videotext{
+  text-align: center;
+  padding: 10px;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+/*for film content*/
+iframe {
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding-bottom: 20px;
+}
+
+/*some of the popup lists look messy but I tried to organize it as much as I could*/
+
+#videopic {
+  float: left;
+  width: 40%;
+}
+
+
+/* for genre containers */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card_container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+margin: 10px;
+}
+
+.card_container > div {
+  cursor: pointer;
+  height: 350px;
+  background-size: cover;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  transition: all 0.5s ease-in;
+}
+
+.card_container > div:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+.bg1 {
+  background: url('imgs/cont1.png');
+}
+
+.bg2 {
+  background: url('imgs/cont2.png');
+  color: #333;
+}
+
+.bg3 {
+  background: url('imgs/cont3.png');
+}
+
+.bg4 {
+  background: url('imgs/cont4.png');
+  color: #333;
+}
+
+.bg5 {
+  background: url('imgs/cont5.png');
+}
+
+.bg6 {
+  background: url('imgs/cont6.png');
+  color: #333;
+}
+
+.bg7 {
+  background: url('imgs/cont7.gif');
+}
+
+.bg8 {
+  background: url('imgs/cont8.png');
+  color: #333;
+}
+
+.bg9 {
+  background: url('imgs/cont9.png');
+}
+
+
+.photos {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+}
+
+#intro {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+/* modal starts here */
+
+button {
+  font-family: 'Cambria';
+  background-color: #8cbfab;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+}
+
+.popup_content {
+  margin: 10px;
+  padding: 0 10px;
+  padding-top: 20px;
+  max-width: 70%;
+  border: 2px solid #61b1a3;
+  border-radius: 5px;
+  background: white;
+}
+
+
+
+/*for footer icons*/
+#footer {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #449b9c;
+  padding: 10px;           /* Footer height */
+}
+
+#footer2 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #449b9c;
+  text-align: center;
+  padding-top: 10px;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;          /* Footer height */
+}
+
+#footertext {
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-vimeo {
+  color: #8ec4b8;
+}
+
+.fa-instagram {
+  color: #8ec4b8;
+}
+
+.fa-google {
+  color: #8ec4b8;
+}
